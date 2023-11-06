@@ -1,0 +1,16 @@
+.SummaryCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card-category {
+  flex: 1;
+}
+
+.card-score {
+  font-weight: 700;
+}

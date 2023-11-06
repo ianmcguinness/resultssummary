@@ -1,0 +1,53 @@
+.Result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem 4rem;
+  width: 50%;
+  border-radius: 40px;
+}
+
+.Result h3,
+.circle h6 {
+  color: hsl(241, 100%, 89%);
+}
+
+.circle {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+.circle h6 {
+  font-size: 0.8rem;
+}
+
+.description {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.result-text {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Result {
+    width: 100%;
+    border-radius: 0 0 40px 40px;
+  }
+}
